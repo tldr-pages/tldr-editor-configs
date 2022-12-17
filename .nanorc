@@ -1,0 +1,18 @@
+# tldr
+syntax tldr "\.md$"
+header "^# .*"
+
+linter tldr-lint
+
+color blue "^[[:space:]]*#.*$"
+color yellow "^[[:space:]]*>.*$"
+color green "^[[:space:]]*- .*:$"
+color rosy "^[[:space:]]*`.*`$"
+color cyan "\{\{[^ {}]+\}\}"
+color magenta "\|"
+color lime "([[:digit:]]+..[[:digit:]]+|-infinity..[[:digit:]]+|[[:digit:]]+..infinity)"
+color plum "-?\<infinity\>"
+color sky "path/to/(file|directory)[[:digit:]]*"
+color brick "\<any\>"
+color latte "--?[[:alnum:]]+"
+color blue "\.\.\."
