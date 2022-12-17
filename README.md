@@ -1,4 +1,4 @@
-# tldr-nanorc-config
+# tldr-editor-configs
 
 ## Requirenments
 
