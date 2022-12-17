@@ -6,4 +6,4 @@
 
 ## Screenshots
 
-![image](./screenshot.png)
+![image](./nano/screenshot.png)
